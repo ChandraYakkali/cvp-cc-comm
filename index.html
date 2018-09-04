@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>App</title>
+
+</head>
+
+<body>
+
+  <div id="root"></div>
+
+  <script src="cvp-cc-comm.js" />
+
+  <script>
+    function func1(arg1) {
+
+      getApiCall1(arg1);
+      getApiCall2(arg1);
+    }
+  </script>
+
+  <button onclick="func1('hi')">call 1</button>
+
+  <button onclick="getApiCall2('hi')">call 2</button>
+
+
+</body>
+
+</html>
